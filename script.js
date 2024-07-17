@@ -169,161 +169,7 @@ const table = $('#table').dxDataGrid({
 	showBorders: true,
 }).dxDataGrid('instance');
 
-// const tableCentroid = $('#tableCentroid').dxDataGrid({
-// 	dataSource: dataJson,
-// 	// selection: {
-// 	// 	mode: 'single',
-// 	// },
-// 	allowColumnResizing: true,
-// 	columnResizingMode: 'widget',
-// 	columnAutoWidth: true,
-// 	showRowLines: true,
-// 	hoverStateEnabled: true,
-// 	searchPanel: {
-// 		visible: true,
-// 		width: 240,
-// 		placeholder: 'Search...',
-// 	},
-// 	filterRow: {
-// 		visible: true,
-// 	},
-// 	headerFilter: {
-// 		visible: true,
-// 	},
-// 	filterPanel: {
-// 		visible: true
-// 	},
-// 	filterBuilder: {
-// 		allowHierarchicalFields: true,
-// 	},
-// 	pager: {
-// 		showInfo: true,
-// 		showNavigationButtons: true,
-// 		showPageSizeSelector: true,
-// 		visible: true,
-// 	},
-// 	paging: {
-// 		pageSize: 10
-// 	},
-// 	allowColumnReordering: true,
-// 	scrolling: {
-// 		useNative: true,
-// 	},
-// 	columns: [
-// 		{
-// 			caption: 'No',
-// 			alignment: 'center',
-// 			fixed: true,
-// 			width: 50,
-// 			cellTemplate: function (cellElement, cellInfo) {
-// 				cellElement.text(cellInfo.row.loadIndex + 1)
-// 			}
-// 		},
-// 		{
-// 			dataField: 'track_id',
-// 		},
-// 		{
-// 			dataField: 'track_name',
-// 		},
-// 		{
-// 			dataField: 'track_artist',
-// 		},
-// 		{
-// 			dataField: 'track_popularity',
-// 		},
-// 		{
-// 			dataField: 'track_album_name',
-// 		},
-// 		{
-// 			dataField: 'track_album_release_date',
-// 			dataType: 'date',
-// 			format: 'dd/MM/yyyy'
-// 		},
-// 		{
-// 			dataField: 'playlist_name',
-// 		},
-// 		{
-// 			dataField: 'playlist_id',
-// 		},
-// 		{
-// 			dataField: 'playlist_genre',
-// 		},
-// 		{
-// 			dataField: 'playlist_subgenre',
-// 		},
-// 		{
-// 			dataField: 'danceability',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'energy',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'key',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'loudness',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'mode',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'speechiness',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'acousticness',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'instrumentalness',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'liveness',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'valence',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'tempo',
-// 			dataType: 'number',
-// 		},
-// 		{
-// 			dataField: 'duration_ms',
-// 			dataType: 'number',
-// 		},
-// 	],
-// 	columnChooser: {
-// 		enabled: true,
-// 		mode: columnChooserModes[1].key,
-// 		position: {
-// 			my: 'right top',
-// 			at: 'right bottom',
-// 			of: '.dx-datagrid-column-chooser-button',
-// 		},
-// 		search: {
-// 			enabled: true,
-// 			editorOptions: {
-// 				placeholder: 'Search column'
-// 			},
-// 		},
-// 		selection: {
-// 			recursive: true,
-// 			selectByClick: true,
-// 			allowSelectAll: true,
-// 		},
-// 	},
-// 	showBorders: true,
-// }).dxDataGrid('instance');
-
-const newCentroid = $('#tableNewCentroid').dxDataGrid({
+const tableCentroid = $('#tableCentroid').dxDataGrid({
 	dataSource: dataJson,
 	// selection: {
 	// 	mode: 'single',
@@ -477,6 +323,160 @@ const newCentroid = $('#tableNewCentroid').dxDataGrid({
 	showBorders: true,
 }).dxDataGrid('instance');
 
+// const newCentroid = $('#tableNewCentroid').dxDataGrid({
+// 	dataSource: dataJson,
+// 	// selection: {
+// 	// 	mode: 'single',
+// 	// },
+// 	allowColumnResizing: true,
+// 	columnResizingMode: 'widget',
+// 	columnAutoWidth: true,
+// 	showRowLines: true,
+// 	hoverStateEnabled: true,
+// 	searchPanel: {
+// 		visible: true,
+// 		width: 240,
+// 		placeholder: 'Search...',
+// 	},
+// 	filterRow: {
+// 		visible: true,
+// 	},
+// 	headerFilter: {
+// 		visible: true,
+// 	},
+// 	filterPanel: {
+// 		visible: true
+// 	},
+// 	filterBuilder: {
+// 		allowHierarchicalFields: true,
+// 	},
+// 	pager: {
+// 		showInfo: true,
+// 		showNavigationButtons: true,
+// 		showPageSizeSelector: true,
+// 		visible: true,
+// 	},
+// 	paging: {
+// 		pageSize: 10
+// 	},
+// 	allowColumnReordering: true,
+// 	scrolling: {
+// 		useNative: true,
+// 	},
+// 	columns: [
+// 		{
+// 			caption: 'No',
+// 			alignment: 'center',
+// 			fixed: true,
+// 			width: 50,
+// 			cellTemplate: function (cellElement, cellInfo) {
+// 				cellElement.text(cellInfo.row.loadIndex + 1)
+// 			}
+// 		},
+// 		{
+// 			dataField: 'track_id',
+// 		},
+// 		{
+// 			dataField: 'track_name',
+// 		},
+// 		{
+// 			dataField: 'track_artist',
+// 		},
+// 		{
+// 			dataField: 'track_popularity',
+// 		},
+// 		{
+// 			dataField: 'track_album_name',
+// 		},
+// 		{
+// 			dataField: 'track_album_release_date',
+// 			dataType: 'date',
+// 			format: 'dd/MM/yyyy'
+// 		},
+// 		{
+// 			dataField: 'playlist_name',
+// 		},
+// 		{
+// 			dataField: 'playlist_id',
+// 		},
+// 		{
+// 			dataField: 'playlist_genre',
+// 		},
+// 		{
+// 			dataField: 'playlist_subgenre',
+// 		},
+// 		{
+// 			dataField: 'danceability',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'energy',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'key',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'loudness',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'mode',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'speechiness',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'acousticness',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'instrumentalness',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'liveness',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'valence',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'tempo',
+// 			dataType: 'number',
+// 		},
+// 		{
+// 			dataField: 'duration_ms',
+// 			dataType: 'number',
+// 		},
+// 	],
+// 	columnChooser: {
+// 		enabled: true,
+// 		mode: columnChooserModes[1].key,
+// 		position: {
+// 			my: 'right top',
+// 			at: 'right bottom',
+// 			of: '.dx-datagrid-column-chooser-button',
+// 		},
+// 		search: {
+// 			enabled: true,
+// 			editorOptions: {
+// 				placeholder: 'Search column'
+// 			},
+// 		},
+// 		selection: {
+// 			recursive: true,
+// 			selectByClick: true,
+// 			allowSelectAll: true,
+// 		},
+// 	},
+// 	showBorders: true,
+// }).dxDataGrid('instance');
+
 Papa.parse('./spotify.csv', {
 	header: true,
 	download: true,
@@ -529,10 +529,10 @@ $('#btnSubmit').on('click', function () {
 		centroids.push(dataJson[rndInt]);
 	}
 
-	// tableCentroid.option('dataSource', centroids);
-	// tableCentroid.refresh();
-	// $('#centroidContainer').removeClass('d-none');
-	$('#newCentroidContainer').removeClass('d-none');
+	tableCentroid.option('dataSource', centroids);
+	tableCentroid.refresh();
+	$('#centroidContainer').removeClass('d-none');
+	// $('#newCentroidContainer').removeClass('d-none');
 
 	table.deleteColumn(`Cluster`);
 	table.addColumn({
